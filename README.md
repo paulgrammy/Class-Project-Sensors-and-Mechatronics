@@ -55,7 +55,7 @@ Classic light barriers require one full receiver chain per channel. This project
 - Relevant bins for 15/20/25/30 kHz: indices **77, 102, 128, 154**
 - Each bin is compared against a threshold to drive the corresponding status LED
 
-### Extended mode — finger-position sensing
+### Extended application finger-position sensing
 
 Reinterprets the 4-channel coverage pattern as a continuous position value. Smoothed via a 4-sample ring-buffer moving average, then combined into a weighted centroid. 
 
